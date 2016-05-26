@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "muti_base",
+    'name': "xbase",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
@@ -24,12 +24,8 @@
 
     # always loaded
     'data': [
-        'views/config_localization_view.xml',
+        'configuration/config_localization_view.xml',
         'data/xbase_data.xml',
-        'data/res.company.csv',
-        'data/config.area.csv',
-        'data/config.branch.csv',
-        'data/res.users.csv',
         'views/mutigroup_template.xml',
         'views/homepage_template.xml',
         'views/website_assets.xml',
