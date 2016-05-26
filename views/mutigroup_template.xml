@@ -1,0 +1,23 @@
+<openerp>
+    <data>
+        <template id="assets_backend" name="vs assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/muti_base/static/src/js/chrome.js"></script>
+            </xpath>
+        </template>
+        
+        
+        <template id="fav_ico" name="muti Icon" inherit_id="web.layout">
+        	<xpath expr="//html/head/title" position="replace">
+        	 <title>MUTI Group</title>
+        	</xpath>
+        </template>
+        
+        <template id="fav_ico" name="muti Icon" inherit_id="web.layout">
+        	<xpath expr="//html/head/link[1]" position="replace">
+        	 	<link rel="shortcut icon" href="/muti_base/static/src/img/mutigroup_favicon.png" type="image/x-icon"/>
+        	</xpath>
+        </template>
+        
+    </data>
+</openerp>

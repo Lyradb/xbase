@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="base.main_partner" model="res.partner">
+            <field name="name">ACE Tech Receptives</field>
+            <field name="email">lyradb@gmail.com</field>
+            <field name="mobile">+63918962735</field>
+            <field name="website"></field>
+        </record>
+
+        <!-- Basic Company  -->
+        <record id="base.main_company" model="res.company">
+            <field name="name">ACE Tech Receptives</field>
+            <field name="phone">+63918962735</field>
+            <field name="abbrevation"></field>
+            <field name="rml_header1"></field>
+            <field name="currency_id" ref="base.PHP"/>
+        </record>
+
+        <record model="res.partner" id="base.partner_root">
+            <field name="email">lyradb@gmail.com</field>
+            <field name="mobile">+63918962735</field>
+        </record>
+
+        <!-- for Email
+        <record id="ir_mail_server_localhost0" model="ir.mail_server">
+            <field name="name">localhost</field>
+            <field name="smtp_host">localhost</field>
+            <field eval="25" name="smtp_port"/>
+            <field eval="10" name="sequence"/>
+        </record>
+        -->
+
+    </data>
+</openerp>
